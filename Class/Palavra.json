@@ -1,0 +1,267 @@
+{
+    "Palavras":[
+        {
+            "idPalavra": 1,
+            "nomePalavra":"Algorithm",
+            "traduçãoPalavra":"Algoritmo",
+            "descricaoPalavra":"Uma série de instruções ou passos de procedimentos para a solução de um problema específico."
+        },
+        {
+            "idPalavra": 2,
+            "nomePalavra":"Caption",
+            "traduçãoPalavra":"Legenda",
+            "descricaoPalavra":"Legenda, título ou cabeçalho."
+        },
+        {
+            "idPalavra": 3,
+            "nomePalavra":"Alt Key",
+            "traduçãoPalavra":"Tecla Alt",
+            "descricaoPalavra":"Tecla especial em um teclado de pc usada para ativar funções especiais."
+        },
+        {
+            "idPalavra": 4,
+            "nomePalavra":"Flowchart",
+            "traduçãoPalavra":"Gráfico",
+            "descricaoPalavra":"Gráfico/Diagrama que mostra a informação como uma série de linhas ou blocos."
+        },
+        {
+            "idPalavra": 5,
+            "nomePalavra":"Amplifier",
+            "traduçãoPalavra":"Amplificador",
+            "descricaoPalavra":"Equipamento que utiliza uma pequena quantidade de energia para controlar uma quantidade maior."
+        },
+        {
+            "idPalavra": 6,
+            "nomePalavra":"Close File",
+            "traduçãoPalavra":"Fecha arquivo",
+            "descricaoPalavra":"Função que executa o fechamento de um arquivo dentro de um programa."
+        },
+        {
+            "idPalavra": 7,
+            "nomePalavra":"Analog or Digital Converter",
+            "traduçãoPalavra":"Conversor Analógico ou Digital",
+            "descricaoPalavra":"Circuito eletrônico que tem a função de converter uma grandeza digital em uma grandeza analógica (ou vice-versa)."
+        },
+        {
+            "idPalavra": 8,
+            "nomePalavra":"Data Control",
+            "traduçãoPalavra":"Controle de dados, gerenciamento de dados."
+        },
+        {
+            "idPalavra": 9,
+            "nomePalavra":"Auto Activate",
+            "traduçãoPalavra":"Função que permite a ativação automática de algo."
+        },
+        {
+            "idPalavra": 10,
+            "nomePalavra":"Backup(No MS-DOS)",
+            "traduçãoPalavra":"Cópia de segurança",
+            "descricaoPalavra":"Comando para salvar dados de um disco rígido em disquet, Copia arquivos de uma origem para um destino."
+        },
+        {
+            "idPalavra": 11,
+            "nomePalavra":"BOS(BASIC OPERATING SYSTEM)",
+            "traduçãoPalavra":"Sistema Operacional Básico",
+            "descricaoPalavra":"É o conjunto de programas que gerenciam recursos, processadores, armazenamento, dispositivos de entrada e saída e dados da máquina e seus periféricos. O Sistema Operacional cria uma plataforma comum."
+        },
+        {
+            "idPalavra": 12,
+            "nomePalavra":"Button",
+            "traduçãoPalavra":"Botão",
+            "descricaoPalavra":"Elementos interativos da interface, que permitem que os usuários acessem funcionalidades, executem ações ou naveguem pela interface."
+        },
+        {
+            "idPalavra": 13,
+            "nomePalavra":"Bug",
+            "traduçãoPalavra":"Inseto(de forma geral)",
+            "descricaoPalavra":"Erro, falha em programas de Software."
+        },
+        {
+            "idPalavra": 14,
+            "nomePalavra":"Byte",
+            "traduçãoPalavra":"Grupo de bites ou dígitos binários",
+            "descricaoPalavra":"É uma unidade de informação digital equivalente a oito bits."
+        },
+        {
+            "idPalavra": 15,
+            "nomePalavra":"CapsLock",
+            "traduçãoPalavra":"Trava das Maiúsculas",
+            "descricaoPalavra":"Tecla que permite que todos os caracteres sejam digitados em maiúsculos."
+        },
+        {
+            "idPalavra": 16,
+            "nomePalavra":"Compiler",
+            "traduçãoPalavra":"Compilar",
+            "descricaoPalavra":"Converter um programa de linguagem de alto nível em programa em código de máquina que pode ser executado diretamente."
+        },
+        {
+            "idPalavra": 17,
+            "nomePalavra":"Data Field",
+            "traduçãoPalavra":"Campo de Dados",
+            "descricaoPalavra":"Parte de uma situação instrução de computador que contém a posição do dado."
+        },
+        {
+            "idPalavra": 18,
+            "nomePalavra":"DOS (Disk Operating System)",
+            "traduçãoPalavra":"Sistema Operacional em Discos",
+            "descricaoPalavra":"Software de sistema operacional usado na maioria dos computadores e que provê a abstração e gerenciamento dos dispositivos de armazenamento secundário e as informações neles contidas."
+        },
+        {
+            "idPalavra": 19,
+            "nomePalavra":"Directory",
+            "traduçãoPalavra":"Diretório ou Lista",
+            "descricaoPalavra":"Estrutura utilizada para organizar arquivos em um computador ou um arquivo que contém referências a outros arquivos."
+        },
+        {
+            "idPalavra": 20,
+            "nomePalavra":"Display",
+            "traduçãoPalavra":"Exibição",
+            "descricaoPalavra":"Exibir, mostrar informação."
+        },
+        {
+            "idPalavra": 21,
+            "nomePalavra":"Extract File",
+            "traduçãoPalavra":"Extrair Arquivo",
+            "descricaoPalavra":"Comando executado quando se tem uma pasta compactada e se faz necessária a descompactação da mesma."
+        },
+        {
+            "idPalavra": 22,
+            "nomePalavra":"Edge",
+            "traduçãoPalavra":"Bordas/Margem",
+            "descricaoPalavra":"Detalhe que se dá nas bordas de determinado elemento."
+        },
+        {
+            "idPalavra": 23,
+            "nomePalavra":"Failure",
+            "traduçãoPalavra":"Falha, Avaria ou Pane",
+            "descricaoPalavra":"Qualquer problema grave causado por defeito no hardware ou software."
+        },
+        {
+            "idPalavra": 24,
+            "nomePalavra":"File set",
+            "traduçãoPalavra":"Conjunto de arquivos",
+            "descricaoPalavra":"Usado para manter documentos ou outros itens em ordem."
+        },
+        {
+            "idPalavra": 25,
+            "nomePalavra":"Flowchart",
+            "traduçãoPalavra":"Fluxograma",
+            "descricaoPalavra":"Representação gráfica de um procedimento, problema ou sistema, cujas etapas ou módulos são ilustrados de forma encadeada por meio de símbolos geométricos interconectados, diagrama para representação de um algoritmo."
+        },
+        {
+            "idPalavra": 26,
+            "nomePalavra":"Hardware",
+            "traduçãoPalavra":"Unidades Físicas",
+            "descricaoPalavra":"Circuitos integrados, discos e mecanismos que compõem um computador ou seus periféricos."
+        },
+        {
+            "idPalavra": 27,
+            "nomePalavra":"Hide Edges",
+            "traduçãoPalavra":"Esconder, Ocultar Bordas",
+            "descricaoPalavra":"Esconder de vista, descoberta ou obscurecer a borda ou margem."
+        },
+        {
+            "idPalavra": 28,
+            "nomePalavra":"Integer",
+            "traduçãoPalavra":"Número Inteiro",
+            "descricaoPalavra":"Formado pelo conjunto dos números naturais e seus opostos aditivos."
+        },
+        {
+            "idPalavra": 29,
+            "nomePalavra":"Ink",
+            "traduçãoPalavra":"Tinta",
+            "descricaoPalavra":"Tinta de caneta, de impressora que contém pigmentos ou corantes e é usado para colorir uma superfície para produzir uma imagem, texto ou design."
+        },
+        {
+            "idPalavra": 30,
+            "nomePalavra":"USB(Universal Serial Bus)",
+            "traduçãoPalavra":"Porta Serial Universal",
+            "descricaoPalavra":"É um tipo de conexão para ligar e usar(Plug and Play) que permite a conexão de periféricos sem a necessidade de desligar o computador."
+        },
+        {
+            "idPalavra": 31,
+            "nomePalavra":"Tab",
+            "traduçãoPalavra":"Tabular, aba",
+            "descricaoPalavra":"Organiza textos em colunas."
+        },
+        {
+            "idPalavra": 32,
+            "nomePalavra":"Screen",
+            "traduçãoPalavra":"Tela",
+            "descricaoPalavra":"Dispositivo de exibição do computador, acoplada ou não no dispositivo."
+        },
+        {
+            "idPalavra": 33,
+            "nomePalavra":"Scroll",
+            "traduçãoPalavra":"Rolagem",
+            "descricaoPalavra":"Rolar a tela."
+        },
+        {
+            "idPalavra": 34,
+            "nomePalavra":"Server",
+            "traduçãoPalavra":"Servidor",
+            "descricaoPalavra":"Software ou computador, com sistema de computação centralizada que fornece serviços a uma rede de computadores, chamada de cliente."
+        },
+        {
+            "idPalavra": 35,
+            "nomePalavra":"Set up",
+            "traduçãoPalavra":"Configuração",
+            "descricaoPalavra":"Preparar equipamento para operação."
+        },
+        {
+            "idPalavra": 36,
+            "nomePalavra":"Shift",
+            "traduçãoPalavra":"Mudança",
+            "descricaoPalavra":"Muda, Deslocar, Mudança."
+        },
+        {
+            "idPalavra": 37,
+            "nomePalavra":"Short cut",
+            "traduçãoPalavra":"Atalho",
+            "descricaoPalavra":"Caminho derivado de um principal, pelo qual se encurtam distâncias e/ou se chega mais rapidamente ao lugar de destino. Na computação, um atalho de arquivo é um identificador em uma interface do usuário que permite ao usuário encontrar um arquivo ou recurso localizado em um diretório ou pasta diferente do local em que o atalho está localizado."
+        },
+        {
+            "idPalavra": 38,
+            "nomePalavra":"Ram(Random Access Memory)",
+            "traduçãoPalavra":"Memória de acesso aleatório",
+            "descricaoPalavra":"É um tipo de memória que permite a leitura e a escrita, utilizada como memória primária em sistemas eletrônicos digitais."
+        },
+        {
+            "idPalavra": 39,
+            "nomePalavra":"Reset",
+            "traduçãoPalavra":"Redefinir, Restaurar, Inicializar",
+            "descricaoPalavra":"Desligar e religar um computador ou equipamento, por falha ou incorreção no seu funcionamento, fazendo-o funcionar corretamente."
+        },
+        {
+            "idPalavra": 40,
+            "nomePalavra":"Ruler",
+            "traduçãoPalavra":"Régua",
+            "descricaoPalavra":"Régua também é chamada de: regra. uma tira de madeira, metal ou outro material, com bordas retas graduadas geralmente em milímetros ou polegadas, usadas para medir e desenhar linhas retas."
+        },
+        {
+            "idPalavra": 41,
+            "nomePalavra":"ROM(Read Only Memory)",
+            "traduçãoPalavra":"Memória Somente para Leitura",
+            "descricaoPalavra":"Diferentemente da RAM não são voláteis, mantendo os dados gravados após o desligamento do computador."
+        },
+        {
+            "idPalavra": 42,
+            "nomePalavra":"Password",
+            "traduçãoPalavra":"Senha",
+            "descricaoPalavra":"Senha ou palavra-passe, ou ainda palavra-chave ou password, é uma palavra ou código secreto previamente convencionado entre as partes como forma de reconhecimento."
+        },
+        {
+            "idPalavra": 43,
+            "nomePalavra":"Lock",
+            "traduçãoPalavra":"Travar, Bloquear",
+            "descricaoPalavra":"Bloqueio de algo ou um dispositivo."
+        },
+        {
+            "idPalavra": 44,
+            "nomePalavra":"Load",
+            "traduçãoPalavra":"Carregar",
+            "descricaoPalavra":"Carregamento de diversos tipos, carga, acumular."
+        }
+        
+    ]
+}
