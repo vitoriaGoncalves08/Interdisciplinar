@@ -52,14 +52,17 @@
     let descricao = document.querySelector('#descricao');
     form.addEventListener('submit', (evt)=>{
         evt.preventDefault();
-        console.log(palavra.value,traducao.value,descricao.value);
         async function Go(){
             let req = await fetch(`./Controllers/InserirPalavra.php?
             palavra=${palavra.value}&traducao=${traducao.value}&descricao=${descricao.value}`)
             let res = await req.text();
-            console.log(res);
+            alert(res);
         }
         Go();
+        palavra.value = '';
+        traducao.value = '';
+        descricao.value = '';
+
 })
 </script>
 </html>
