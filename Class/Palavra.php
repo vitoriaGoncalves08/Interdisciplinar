@@ -11,26 +11,30 @@ class Palavra
         $this->descricao = $descricao;
     }
 
-    public static function getPalavra(int $id = -1, string $word = '') // pega pelo ID ou nome com LIKE
+    public static function getPalavra($word) // pega pelo ID ou nome com LIKE
     {
         try {
-            // rotina de select com LIKE %%
             $dados = [];
-            return $dados;
-            // json_encode([
-            //     'status'=>'ok',
-            // assim que cria JSON em php, ai da pra colocar object antes da variavel que recebe para pegar os dados melhor.
-            // ]);
+            $pdo = Conexao::getConexao();
+            $select = "SELECT * FROM tbPalavra WHERE nomePalavra LIKE '%$word%' ORDER BY nomePalavra ASC";
+            $result_pesquisa = $pdo->prepare($select);
+            $result_pesquisa->bindValue(1,$word);
+            $result_pesquisa->execute();
+            return json_encode($result_pesquisa->fetchAll());       
         } catch (Exception $th) {
-            return $th->getMessage();
+            return json_encode($th->getMessage());
         }
     }
     public static function getAllPalavras() // pega todas as palavras
     {
         try {
-            // rotina de select * from tbPalavra
             $dados = [];
-            return $dados;
+            $pdo = Conexao::getConexao();
+            $select = "SELECT nomePalavra FROM tbPalavra ORDER BY nomePalavra";
+            $result_pesquisa = $pdo->prepare($select);
+            $result_pesquisa->execute();
+            $dados = json_encode($result_pesquisa->fetchAll());
+            return $dados;        
         } catch (Exception $th) {
             return $th->getMessage();
         }
