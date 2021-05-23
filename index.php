@@ -23,12 +23,6 @@
             req.then(el=>{
                 el.json().then(el=>{
                     for (let i = 0; i < el.length; i++) {
-                    content.innerHTML += 
-                    `<p>Nome: ${el[i].nomePalavra}</p>
-                    <p>Traducao: ${el[i].traducaoPalavra}</p>
-                    <p>Descricao: ${el[i].descricaoPalavra}</p>
-                    <hr>
-                    `               ;
                     document.querySelector('#datas').innerHTML += `<option>${el[i].nomePalavra}</option>` 
                 }
                 })
