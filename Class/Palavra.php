@@ -16,7 +16,7 @@ class Palavra
         try {
             $dados = [];
             $pdo = Conexao::getConexao();
-            $select = "SELECT * FROM tbPalavra WHERE nomePalavra LIKE '%$word%' ORDER BY nomePalavra ASC";
+            $select = "SELECT * FROM tbPalavra WHERE nomePalavra LIKE '$word%' ORDER BY nomePalavra ASC";
             $result_pesquisa = $pdo->prepare($select);
             $result_pesquisa->bindValue(1,$word);
             $result_pesquisa->execute();
@@ -30,7 +30,7 @@ class Palavra
         try {
             $dados = [];
             $pdo = Conexao::getConexao();
-            $select = "SELECT nomePalavra FROM tbPalavra ORDER BY nomePalavra";
+            $select = "SELECT idPalavra, nomePalavra,traducaoPalavra,descricaoPalavra FROM tbPalavra ORDER BY nomePalavra";
             $result_pesquisa = $pdo->prepare($select);
             $result_pesquisa->execute();
             $dados = json_encode($result_pesquisa->fetchAll());
