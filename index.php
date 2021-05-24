@@ -2,16 +2,30 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <title>dbInterdisciplinar</title>
+        <title>Sterms</title>
+
+        <link rel="stylesheet" href="./Public/assets/css/style.css"/>
+        <script src="./Public/assets/javascript/jquery.js"></script>
     </head>
     <body>
+
+    <header id="header">
+        <a id="logo" href="">STerms</a>
+        <nav id="nav">
+            <button class="btn-mobile">Menu</button>
+            <ul id="menu">
+                <li><a href="./Public/View/index_inserir.php">Insert</a></li>
+                <li><a href="#">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
         <form method="POST" action="">
-            <label>Assunto: </label>
-            <input type="text" list="datas" name="termo" id="termo"  placeholder="Pesquisar termo">
+            <input type="text" list="datas" name="termo" id="termo"  placeholder="Search term">
             <datalist id="datas">
             </datalist>
-            <input type="button" id="btn" name="PesqTermo" value="Pesquisar">
-            <a href="./Public/View/index_inserir.php">Inserir</a>
+            <input type="button" id="btn" name="PesqTermo" value="Search">
+            
         </form><br><br>
         <div id='content'>
         </div>
@@ -44,5 +58,8 @@
                 }
             })
         </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
     </body>
 </html>

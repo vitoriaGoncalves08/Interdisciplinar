@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    background: rgba(0,0,0, .05);
+}
+#logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#header{
+    box-sizing: border-box;/*somam, o header vai ter sempre 70px de altura*/
+    height: 70px;
+    padding: 1rem;
+    display: flex; /*itens um do lado do outro*/
+    align-items: center;
+    justify-content: space-between;/* alinhado a direita com espaçamento */
+    background-color: rgb(97, 181, 230);
+}
+#menu{
+    display: flex; 
+    list-style: none;
+    gap: .5rem;  /*novidade de espaçamento*/
+}
+#menu a{
+    display: block;
+    padding: .5rem;
+}
+#btn-mobile{
+    display: none;
+}
+@media(max-width: 600px){
+    #btn-mobile{
+        display: block;/*block = aparece*/
+    }
+    #menu{
+        display: none;
+    }
+    #nav.active #menu{
+        display: flex;
+    }
+}
