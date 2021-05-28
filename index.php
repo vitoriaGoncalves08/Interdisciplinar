@@ -4,8 +4,7 @@
         <meta charset="UTF-8">
         <title>Sterms</title>
         <link rel="stylesheet" href="./Public/assets/css/style.css"/>
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-        
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">        
     </head>
     <body>
 
@@ -22,14 +21,16 @@
             </ul>
         </nav>
     </header>
-    <hr>
+
         <section class="cont-form">
         <form method="POST" action="">
-            <input type="text" list="datas" name="termo" id="termo"  placeholder="Search term">
+            <input type="text" list="datas" name="termo" id="termo" placeholder="Search term">
             <datalist id="datas">
             </datalist>
-            <input type="button" id="btn" name="PesqTermo" value="Search">  
+            <input type="button" id="btn" name="PesqTermo" value="Search">
+
         </form>
+
         </section>
 
         <div id='content'>
@@ -55,10 +56,11 @@
                 content.innerHTML = '';
                 for (let i = 0; i < res.length; i++) {
                     content.innerHTML += 
-                    `<p>Nome: ${res[i].nomePalavra}</p>
-                    <p>Traducao: ${res[i].traducaoPalavra}</p>
-                    <p>Descricao: ${res[i].descricaoPalavra}</p>
-                    <hr>
+                    `<div class="lista">
+                        <p class="nomeP"><b>Nome:</b> ${res[i].nomePalavra}</p>
+                        <p class="tradP"><b>Tradução:</b> ${res[i].traducaoPalavra}</p>
+                        <p class="descP"><b>Descrição:</b> ${res[i].descricaoPalavra}</p>
+                    </div>
                     `               ;
                     document.querySelector('#datas').innerHTML += `<option>${res[i].nomePalavra}</option>` 
                 }
