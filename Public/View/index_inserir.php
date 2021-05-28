@@ -54,16 +54,16 @@
         margin: 10px 0;
         border-radius: 7px;
         border: none;
-        font-family: 'Arial'
+        font-family: 'Arial';
+        outline: 0;
     }
 
     input[type='submit'] {
         cursor: pointer;
         background-color: #24262b;
-        color: white
+        color: white;
     }
-
-    h1{
+     h1{
         font-size: 35px;
         text-align: center;
         border-bottom:3px solid #9400D3;
@@ -74,12 +74,12 @@
 
     <div class="box">
         <form action="./Controllers/InserirPalavra.php" id='form' method="POST">
-        <h1>Inserir novo termo</h1>
+        <h1>Insert a new term</h1>
 
-        <input type="text" placeholder="Palavra" id="palavra" required>
-        <input type="text" placeholder="Tradução" id="traducao" required>
-        <input type="text" placeholder="Descrição" id="descricao" required>
-        <input type="submit" value="Inserir">
+        <input type="text" placeholder="Term" id="palavra" required>
+        <input type="text" placeholder="Translation" id="traducao" required>
+        <input type="text" placeholder="Description" id="descricao" required>
+        <input type="submit" value="Insert">
         </form>
     </div>
     

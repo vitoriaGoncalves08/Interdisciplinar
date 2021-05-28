@@ -4,7 +4,8 @@
         <meta charset="UTF-8">
         <title>Sterms</title>
         <link rel="stylesheet" href="./Public/assets/css/style.css"/>
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">        
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">   
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">     
     </head>
     <body>
 
@@ -27,7 +28,7 @@
             <input type="text" list="datas" name="termo" id="termo" placeholder="Search term">
             <datalist id="datas">
             </datalist>
-            <input type="button" id="btn" name="PesqTermo" value="Search">
+            <input type="button" id="btn" name="PesqTermo"><span><i class="fas fa-search"></i></span>
 
         </form>
 

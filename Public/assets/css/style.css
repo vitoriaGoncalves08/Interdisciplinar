@@ -116,29 +116,38 @@ form{
     display: flex;
     justify-content: center;
 }
-.input{
-    background: #24262b;
-    
+input{
+    box-shadow: 0 0 1em  rgb(179, 179, 179);
 }
 
 #termo{
-    border-top-left-radius: 50px;  
-    border-bottom-left-radius: 50px;  
-    border: solid 1px #24262b;
+    border-top-left-radius: 30px;  
+    border-bottom-left-radius: 30px; 
     padding: 10px;
+    border: none;
+    outline: 0;
 }
 
 #btn{
-    border-top-right-radius: 50px;  
-    border-bottom-right-radius: 50px;
-    border: solid 1px #24262b;
-    border-left: none;
-    padding: 5px;
+    border-top-right-radius: 30px;  
+    border-bottom-right-radius: 30px;
+    padding: 1rem;
+    padding-right: 2rem;
     transition: 0.5s;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 0 1em  rgb(179, 179, 179);
+    cursor: pointer;
 }
+
 #btn:hover{
     background-color: #9400D3;
     color: white
+}
+span{
+    color: aqua;
+    cursor: pointer;
+
 }
 /*---------------------- FIM FORM------------------------ */
 
@@ -148,10 +157,26 @@ form{
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 2%;
-    border: solid 1px #24262b;
     padding: 1.5%;
     border-radius: 7px;
-    background-color: #2627295e;
+    background-color: #24262b;
+    border: none;
+    box-shadow: 0 0 1em  rgb(122, 122, 122);
+}
+.lista:last-child { 
+    margin-bottom: 2%;
+ }
+ b{
+     color: #9400D3;
+ }
+.nomeP{
+    color: white;
+}
+.tradP{
+    color: white;
+}
+.descP{
+    color: white;
 }
 
 /*---------------------- CFIM LISTA------------------------ */
