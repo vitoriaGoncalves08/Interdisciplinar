@@ -138,6 +138,7 @@ input{
     border: none;
     box-shadow: 0 0 1em  rgb(179, 179, 179);
     cursor: pointer;
+    
 }
 
 #btn:hover{
