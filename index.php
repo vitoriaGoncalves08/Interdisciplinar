@@ -58,12 +58,12 @@
                             </ul>
                         </div>
                         <div class="footer-col">
-                    <h4>online shop</h4>
+                    <h4>components</h4>
                     <ul>
-                        <li><a href="#">watch</a></li>
-                        <li><a href="#">bag</a></li>
-                        <li><a href="#">shoes</a></li>
-                        <li><a href="#">dress</a></li>
+                        <li><a href="#">PWIII</a></li>
+                        <li><a href="#">English</a></li>
+                        <li><a href="#">PAMII</a></li>
+                        <li><a href="#">Banco</a></li>
                     </ul>
                 </div>
                         <div class="footer-col">

@@ -31,15 +31,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 0 10px;
+        margin-bottom: 2rem;
     }
 
     form {
         display: flex;
         width: 100%;
-        max-width: 600px;
-        margin: 100px 0 0 0;
-        padding: 30px;
+        max-width: 60vh;
+        padding: 1rem;
         background-color: #CCC;
         flex-direction: column;
         border-radius: 7px;
@@ -106,12 +105,12 @@
                 </ul>
             </div>
             <div class="footer-col">
-                <h4>online shop</h4>
-                <ul>
-                    <li><a href="#">watch</a></li>
-                    <li><a href="#">bag</a></li>
-                    <li><a href="#">shoes</a></li>
-                    <li><a href="#">dress</a></li>
+            <h4>components</h4>
+                    <ul>
+                        <li><a href="#">PWIII</a></li>
+                        <li><a href="#">English</a></li>
+                        <li><a href="#">PAMII</a></li>
+                        <li><a href="#">Banco</a></li>
                 </ul>
             </div>
             <div class="footer-col">
