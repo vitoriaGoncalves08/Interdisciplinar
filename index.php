@@ -28,14 +28,56 @@
             <input type="text" list="datas" name="termo" id="termo" placeholder="Search term">
             <datalist id="datas">
             </datalist>
-            <input type="button" id="btn" name="PesqTermo"><span><i class="fas fa-search"></i></span>
-
+            <button type="button" id="btn" name="PesqTermo"><i class="fas fa-search"></i></button
         </form>
 
         </section>
 
         <div id='content'>
-        </div>
+            </div>
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col">
+                            <h4>company</h4>
+                            <ul>
+                                <li><a href="#">Vitória Passos</a></li>
+                                <li><a href="#">Mariana Santos</a></li>
+                                <li><a href="#">Guilherme Narciso</a></li>
+                                <li><a href="#">Camylly Lima</a></li>
+                                <li><a href="#">Gabriely Brito</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>get help</h4>
+                            <ul>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">shipping</a></li>
+                                <li><a href="#">returns</a></li>
+                                <li><a href="#">order status</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="#">watch</a></li>
+                        <li><a href="#">bag</a></li>
+                        <li><a href="#">shoes</a></li>
+                        <li><a href="#">dress</a></li>
+                    </ul>
+                </div>
+                        <div class="footer-col">
+                            <h4>follow us</h4>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         <script src="./Public/assets/javascript/jquery.js"></script>
         <script>
             'use strict';
@@ -53,6 +95,7 @@
                 evt.preventDefault();
                 let req = await fetch(`./Controllers/PegaPalavra.php?term=${termo.value}`);
                 let res = JSON.parse(await req.json());
+                console.log(res);
                 let content = document.querySelector('#content');
                 content.innerHTML = '';
                 for (let i = 0; i < res.length; i++) {
@@ -68,48 +111,5 @@
             })
         </script>
 
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="footer-col">
-                    <h4>company</h4>
-                    <ul>
-                        <li><a href="#">Vitória Passos</a></li>
-                        <li><a href="#">Mariana Santos</a></li>
-                        <li><a href="#">Guilherme Narciso</a></li>
-                        <li><a href="#">Camylly Lima</a></li>
-                        <li><a href="#">Gabriely Brito</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>get help</h4>
-                    <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">shipping</a></li>
-                        <li><a href="#">returns</a></li>
-                        <li><a href="#">order status</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>online shop</h4>
-                    <ul>
-                        <li><a href="#">watch</a></li>
-                        <li><a href="#">bag</a></li>
-                        <li><a href="#">shoes</a></li>
-                        <li><a href="#">dress</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>follow us</h4>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
   </body>     
 </html>
