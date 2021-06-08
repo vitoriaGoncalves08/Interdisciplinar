@@ -55,4 +55,37 @@ class Palavra
             return $th;
         }
     }
+
+    public static function deletarPalavra($id) 
+    {
+        try {
+            $conn = Conexao::getConexao();
+            $sql = 'DELETE FROM tbpalavra WHERE idPalavra = :id';
+            $stmt = $conn->prepare($sql);
+            $stmt->bindValue(":id", $id);
+            $stmt->execute();
+            return 'ok';
+        } catch (Exception $th) {
+            return $th;
+        }
+    }
+
+    public static function atualizarPalavra($palavra)
+    {
+        try {
+            $conn = Conexao::getConexao();
+            $sql = 'UPDATE tbpalavra SET nomePalavra = ?, traducaoPalavra = ?, descricaoPalavra = ? WHERE idPalavra = ?';
+            $stmt = $conn->prepare($sql);
+            $stmt->bindValue(1, $palavra->nome);
+            $stmt->bindValue(2, $palavra->traducaoPalavra);
+            $stmt->bindValue(3, $palavra->descricao);
+            $stmt->bindValue(4, $palavra->id);
+            $stmt->execute();
+            return 'ok';
+        } catch (Exception $th) {
+            return $th;
+        }
+    }
+
+
 }
